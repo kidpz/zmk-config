@@ -93,7 +93,7 @@
             bindings = <
 &kp ESCAPE  &kp AT_SIGN  &kp HASH   &kp DOLLAR    &kp PERCENT          &kp CARET                  &kp AMPERSAND         &kp ASTERISK           &ht MINUS UNDERSCORE  &kp BACKSPACE
 &kp TAB     &kp EQUAL    &kp MINUS  &kp PLUS      &kp SQT              &ht HOME NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &ht END PIPE          &kp ENTER
-&kp TILDE   &kp GRAVE    &kp SLASH  &kp ASTERISK  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &to 3
+&to 4       &kp MINUS    &kp SLASH  &kp ASTERISK  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &to 3
                                     &to 0         &kp LSHIFT           &kp LEFT_ALT               &to 2
             >;
         };
@@ -121,20 +121,10 @@
         tri_layer {
             display-name = "FUNC";
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0    &bt BT_SEL 2  &out OUT_TOG   &tog WIN        &kp C_MUTE    &kp C_PREV
+&kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0    &bt BT_SEL 2  &out OUT_TOG   &tog 1          &kp C_MUTE    &kp C_PREV
 &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1    &bt BT_SEL 3  &kp C_BRI_UP   &studio_unlock  &kp C_VOL_UP  &kp C_PP
 &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_CLR      &bt BT_SEL 4  &kp C_BRI_DEC  &soft_off       &kp C_VOL_DN  &kp C_NEXT
-                          &trans   &trans          &trans        &trans
-            >;
-        };
-
-        mouse {
-            display-name = "MOUSE";
-            bindings = <
-&tog MOUSE  &mkp MB4  &mkp MCLK  &mkp MB5   &trans        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &tog MOUSE
-&trans      &trans    &trans     &trans     &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans      &trans    &trans     &trans     &trans        &trans          &mkp MB4        &mkp MCLK     &mkp MB5         &trans
-                                 &kp SPACE  &kp LSHIFT    &mkp LCLK       &mkp RCLK
+                          &trans   &trans          &trans        &to 1
             >;
         };
     };
