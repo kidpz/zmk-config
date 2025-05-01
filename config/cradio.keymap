@@ -101,10 +101,10 @@
         right_layer {
             display-name = "NUM & NAVIGATION";
             bindings = <
-&kp N1   &kp N2    &kp N3     &kp N4   &kp N5     &kp N6    &kp N7     &kp N8     &kp N9     &kp N0
-&kp DEL  &kp CAPS  &kp PSCRN  &kp INS  &trans     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans   &trans    &trans     &trans   &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &bootloader
-                              &trans   &kp ESC    &trans    &trans
+&kp N1   &kp N2    &kp N3     &kp N4   &kp N5     &kp N6     &kp N7                   &kp N8                   &kp N9               &kp BACKSPACE
+&kp DEL  &kp CAPS  &kp PSCRN  &kp INS  &trans     &kp LEFT   &ht LEFT_GUI DOWN_ARROW  &ht LEFT_ALT DOWN_ARROW  &ht LG(RIGHT) RIGHT  &kp RETURN
+&trans   &trans    &trans     &trans   &trans     &mkp LCLK  &ht END PAGE_DOWN        &ht HOME PAGE_UP         &trans               &trans
+                              &trans   &kp ESC    &trans     &trans
             >;
         };
 
