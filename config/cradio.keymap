@@ -98,10 +98,10 @@
         windows_layer {
             display-name = "WIN";
             bindings = <
-&kp Q  &kp W       &kp HASH    &kp DOLLAR   &kp PERCENT          &kp CARET                  &kp AMPERSAND         &kp ASTERISK           &ht MINUS UNDERSCORE  &kp BACKSPACE
-&kp A  &ht LALT S  &ht LGUI D  &ht LCTRL F  &kp SQT              &ht HOME NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &ht END PIPE          &kp ENTER
-&kp Z  &kp X       &kp C       &kp V        &kp DOUBLE_QUOTES    &kp LEFT_BRACKET           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &to 2
-                               &to 0        &kp LSHIFT           &kp LEFT_ALT               &to 3
+&kp Q      &kp W       &kp HASH    &kp DOLLAR    &kp PERCENT          &kp CARET                  &kp AMPERSAND         &kp ASTERISK           &ht MINUS UNDERSCORE  &kp BACKSPACE
+&kp A      &ht LALT S  &ht LGUI D  &ht LCTRL F   &kp SQT              &ht HOME NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &ht END PIPE          &kp ENTER
+&kp TILDE  &kp GRAVE   &kp SLASH   &kp ASTERISK  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &to 3
+                                   &to 0         &kp LSHIFT           &kp LEFT_ALT               &to 2
             >;
         };
 
