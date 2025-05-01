@@ -78,13 +78,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            display-name = "DEFAULT";
+        dl {
+            display-name = "DEF";
             bindings = <
 &kp Q  &kp W  &kp E           &kp R                       &kp T             &kp Y             &kp U       &kp I            &kp O                   &kp P
 &kp A  &kp S  &ht LEFT_ALT D  &ht LGUI F                  &kp G             &kp H             &ht RGUI J  &ht RIGHT_ALT K  &kp L                   &kp SEMICOLON
 &kp Z  &kp X  &kp C           &kp V                       &kp B             &kp N             &kp M       &kp COMMA        &ht EXCLAMATION PERIOD  &kp SLASH
-                              &ht LC(LS(LEFT_ALT)) SPACE  &kp LEFT_SHIFT    &kp LEFT_CONTROL  &tog 1
+                              &ht LC(LS(LEFT_ALT)) SPACE  &kp LEFT_SHIFT    &kp LEFT_CONTROL  &to 1
             >;
         };
 
@@ -93,8 +93,8 @@
             bindings = <
 &kp ESCAPE  &kp AT_SIGN  &kp HASH   &kp DOLLAR    &kp PERCENT          &kp CARET                  &kp AMPERSAND         &kp ASTERISK           &ht MINUS UNDERSCORE  &kp BACKSPACE
 &kp TAB     &kp EQUAL    &kp MINUS  &kp PLUS      &kp SQT              &ht HOME NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &ht END PIPE          &kp ENTER
-&tog 4      &kp MINUS    &kp SLASH  &kp ASTERISK  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &tog 3
-                                    &tog 0        &kp LSHIFT           &kp LEFT_ALT               &tog 2
+&tog 4      &kp MINUS    &kp SLASH  &kp ASTERISK  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &to 3
+                                    &to 0         &kp LSHIFT           &kp LEFT_ALT               &to 2
             >;
         };
 
@@ -104,7 +104,7 @@
 &ht LG(LA(ESCAPE)) ESCAPE  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans             &kp K_BACK         &kp LC(LS(TAB))          &kp LC(TAB)              &kp K_FORWARD        &kp BACKSPACE
 &kp DEL                    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &ht LCMD DELETE    &ht LG(LEFT) LEFT  &ht LEFT_GUI DOWN_ARROW  &ht LEFT_ALT DOWN_ARROW  &ht LG(RIGHT) RIGHT  &kp RETURN
 &kp LEFT_SHIFT             &mkp RCLK       &msc SCRL_UP    &msc SCRL_DOWN   &trans             &mkp LCLK          &ht END PAGE_DOWN        &ht HOME PAGE_UP         &trans               &trans
-                                                           &tog 0           &kp LCMD           &kp LEFT_ALT       &tog 1
+                                                           &to 0            &kp LCMD           &kp LEFT_ALT       &to 1
             >;
         };
 
@@ -114,7 +114,7 @@
 &kp ESCAPE  &kp C_PLAY_PAUSE  &kp C_PREVIOUS        &kp C_NEXT            &kp UNDERSCORE      &kp CARET     &kp N7        &kp N8        &kp N9        &kp BACKSPACE
 &kp TAB     &kp SLASH         &kp C_VOL_DN          &kp C_VOLUME_UP       &kp PLUS            &kp FSLH      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
 &sys_reset  &kp ASTERISK      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PERIOD          &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &tog 2
-                                                    &tog 0                &kp LEFT_COMMAND    &kp LEFT_ALT  &tog 1
+                                                    &to 0                 &kp LEFT_COMMAND    &kp LEFT_ALT  &to 1
             >;
         };
 
@@ -124,7 +124,7 @@
 &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0    &bt BT_SEL 2  &out OUT_TOG   &tog 1          &kp C_MUTE    &kp C_PREV
 &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1    &bt BT_SEL 3  &kp C_BRI_UP   &studio_unlock  &kp C_VOL_UP  &kp C_PP
 &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_CLR      &bt BT_SEL 4  &kp C_BRI_DEC  &soft_off       &kp C_VOL_DN  &kp C_NEXT
-                          &tog 0   &trans          &trans        &tog 1
+                          &to 0    &trans          &trans        &to 1
             >;
         };
     };
