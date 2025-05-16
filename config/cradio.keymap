@@ -81,9 +81,9 @@
         dl {
             display-name = "DEF";
             bindings = <
-&kp Q  &kp W  &kp F           &kp P                       &kp B             &kp J             &kp L       &kp U            &kp Y                   &kp SEMICOLON
-&kp A  &kp R  &ht LEFT_ALT S  &ht LGUI T                  &kp G             &kp M             &ht RGUI N  &ht RIGHT_ALT E  &kp I                   &kp O
-&kp Z  &kp X  &kp C           &kp D                       &kp V             &kp K             &kp H       &kp COMMA        &ht EXCLAMATION PERIOD  &kp SLASH
+&kp Q  &kp W  &kp E           &kp R                       &kp T             &kp Y             &kp U       &kp I            &kp O             &kp P
+&kp A  &kp S  &ht LEFT_ALT D  &ht LGUI F                  &kp G             &kp H             &ht RGUI J  &ht RIGHT_ALT K  &kp L             &kp SEMICOLON
+&kp Z  &kp X  &kp C           &kp V                       &kp B             &kp N             &kp M       &kp COMMA        &ht SLASH PERIOD  &kp NON_US_BACKSLASH
                               &ht LC(LS(LEFT_ALT)) SPACE  &kp LEFT_SHIFT    &kp LEFT_CONTROL  &to 1
             >;
         };
