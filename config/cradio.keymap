@@ -103,7 +103,7 @@
             bindings = <
 &ht LG(LA(ESCAPE)) ESCAPE  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &trans             &kp K_BACK         &kp LC(LS(TAB))    &kp LC(TAB)            &kp K_FORWARD        &kp BACKSPACE
 &kp DEL                    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &ht LCMD DELETE    &ht LG(LEFT) LEFT  &ht LEFT_GUI DOWN  &ht LEFT_ALT UP_ARROW  &ht LG(RIGHT) RIGHT  &kp RETURN
-&kp LEFT_SHIFT             &mkp RCLK       &msc SCRL_UP    &msc SCRL_DOWN   &trans             &mkp LCLK          &ht END PAGE_DOWN  &ht HOME PAGE_UP       &trans               &trans
+&kp LEFT_SHIFT             &mkp RCLK       &msc SCRL_UP    &msc SCRL_DOWN   &trans             &mkp LCLK          &ht END PAGE_DOWN  &ht HOME PAGE_UP       &trans               &to 4
                                                            &to 0            &kp LCMD           &kp LEFT_ALT       &to 1
             >;
         };
@@ -121,7 +121,7 @@
         tri_layer {
             display-name = "FUNC";
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0    &bt BT_SEL 2  &out OUT_TOG   &tog 1          &kp C_MUTE    &kp C_PREV
+&kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0    &bt BT_SEL 2  &out OUT_TOG   &trans          &kp C_MUTE    &kp C_PREV
 &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1    &bt BT_SEL 3  &kp C_BRI_UP   &studio_unlock  &kp C_VOL_UP  &kp C_PP
 &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_CLR      &bt BT_SEL 4  &kp C_BRI_DEC  &soft_off       &kp C_VOL_DN  &kp C_NEXT
                           &to 0    &trans          &trans        &to 1
