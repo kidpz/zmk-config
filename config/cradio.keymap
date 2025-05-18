@@ -120,10 +120,10 @@
 
         Navi.Symbol {
             bindings = <
-&kp TAB        &kp LS(TILDE)  &kp SQT        &kp LS(LBRC)     &kp LS(RBRC)     &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BSPC
-&kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)     &kp LS(PRCNT)    &ht LG(LEFT) LEFT_ARROW  &kp DOWN               &kp UP            &ht LG(RIGHT) RIGHT  &kp LA(BACKSPACE)
-&kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)   &kp MINUS        &kp EQUAL        &kp LA(LEFT)             &kp PAGE_DOWN          &kp PAGE_UP       &kp LA(RIGHT)        &kp ESCAPE
-                                             &ht LSHFT SPACE  &mo 4            &kp F5                   &trans
+&kp TAB        &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET    &kp TILDE                &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp ESCAPE           &kp BSPC
+&kp LS(EXCL)   &kp LS(AT)        &kp LS(POUND)         &kp LS(DLLR)           &kp LS(PRCNT)        &ht LG(LEFT) LEFT_ARROW  &kp DOWN        &kp UP           &ht LG(RIGHT) RIGHT  &kp LA(BACKSPACE)
+&kp LS(CARET)  &kp LS(AMPS)      &kp LS(STAR)          &kp MINUS              &kp EQUAL            &kp LA(LEFT)             &kp PAGE_DOWN   &kp PAGE_UP      &kp LA(RIGHT)        &kp BACKSLASH
+                                                       &ht LSHFT SPACE        &mo 4                &kp F5                   &trans
             >;
         };
 
