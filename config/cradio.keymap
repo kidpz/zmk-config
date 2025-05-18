@@ -60,22 +60,21 @@
 
         lm: lm {
             compatible = "zmk,behavior-macro-two-param";
-            wait-ms = <0>;
+            wait-ms = <20>;
             tap-ms = <0>;
             #binding-cells = <2>;
-            bindings =
-                <&macro_param_1to1>,
-                <&macro_press>,
-                <&mo MACRO_PLACEHOLDER &macro_delay 20 &macro_param_2to1>,
-                <&macro_press>,
-                <&kp MACRO_PLACEHOLDER>,
-                <&macro_pause_for_release>,
-                <&macro_param_2to1>,
-                <&macro_release>,
-                <&kp MACRO_PLACEHOLDER &macro_delay 20 &macro_param_1to1>,
-                <&macro_release>,
-                <&mo MACRO_PLACEHOLDER>;
-        };
+            bindings
+            = <&macro_param_1to1>
+            , <&macro_press &mo MACRO_PLACEHOLDER>
+            , <&macro_param_2to1>
+            , <&macro_press &kp MACRO_PLACEHOLDER>
+            , <&macro_pause_for_release>
+            , <&macro_param_2to1>
+            , <&macro_release &kp MACRO_PLACEHOLDER>
+            , <&macro_param_1to1>
+            , <&macro_release &mo MACRO_PLACEHOLDER>
+            ;
+    };
 
         mmv {
             acceleration-exponent = <1>;      // 1
