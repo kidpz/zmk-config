@@ -110,20 +110,20 @@
 
         Navi.Symbol {
             bindings = <
-&kp ESC        &kp LS(TILDE)  &kp SQT        &kp LS(LBRC)  &kp LS(RBRC)     &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BSPC
-&kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &ht LG(LEFT) LEFT_ARROW  &kp DOWN               &kp UP            &ht LG(RIGHT) RIGHT  &kp LA(BACKSPACE)
-&kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)   &kp MINUS     &kp EQUAL        &kp LA(LEFT)             &kp PAGE_DOWN          &kp PAGE_UP       &kp LA(RIGHT)        &kp DELETE
-                                             &kp LSHFT     &mo 4            &kp F5                   &trans
+&kp ESC        &kp LS(TILDE)  &kp SQT        &kp LS(LBRC)     &kp LS(RBRC)     &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BSPC
+&kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)     &kp LS(PRCNT)    &ht LG(LEFT) LEFT_ARROW  &kp DOWN               &kp UP            &ht LG(RIGHT) RIGHT  &kp LA(BACKSPACE)
+&kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)   &kp MINUS        &kp EQUAL        &kp LA(LEFT)             &kp PAGE_DOWN          &kp PAGE_UP       &kp LA(RIGHT)        &kp DELETE
+                                             &ht LSHFT SPACE  &mo 4            &kp F5                   &trans
             >;
         };
 
         Math {
             display-name = "123";
             bindings = <
-&kp ESCAPE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET    &kp MINUS     &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-&kp SLASH   &kp ASTERISK      &kp MINUS             &kp PLUS               &kp EQUAL            &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
-&kp GRAVE   &kp BACKSLASH     &kp LESS_THAN         &kp GREATER_THAN       &kp F5               &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
-                                                    &ht LSHIFT SPACE       &to 0                &kp LEFT_ALT  &lt 1 ENTER
+&kp ESCAPE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET       &kp MINUS  &kp N7        &kp N8        &kp N9        &kp BACKSPACE
+&kp SLASH   &kp ASTERISK      &kp MINUS             &kp PLUS               &kp EQUAL               &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
+&kp GRAVE   &kp BACKSLASH     &kp LESS_THAN         &kp GREATER_THAN       &kp F5                  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
+                                                    &ht LSHIFT SPACE       &kp LC(LS(LEFT_ALT))    &to 0      &lt 1 ENTER
             >;
         };
 
