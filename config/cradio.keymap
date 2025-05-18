@@ -121,8 +121,8 @@
             display-name = "123";
             bindings = <
 &kp ESCAPE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET       &kp MINUS  &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-&kp SLASH   &kp ASTERISK      &kp MINUS             &kp PLUS               &kp EQUAL               &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
-&kp GRAVE   &kp BACKSLASH     &kp LESS_THAN         &kp GREATER_THAN       &kp F5                  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
+&kp SLASH   &kp ASTERISK      &kp MINUS             &kp PLUS               &kp EQUAL               &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
+&kp GRAVE   &kp BACKSLASH     &kp LESS_THAN         &kp GREATER_THAN       &kp F5                  &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
                                                     &ht LSHIFT SPACE       &kp LC(LS(LEFT_ALT))    &to 0      &lt 1 ENTER
             >;
         };
