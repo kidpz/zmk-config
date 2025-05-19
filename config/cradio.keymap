@@ -58,8 +58,8 @@
             bindings = <&kp>, <&kp>;
         };
 
-        ht_long: hold_tap {
-            label = "hold_tap";
+        ht_long: hold_tap_long {
+            label = "hold_tap_long";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
